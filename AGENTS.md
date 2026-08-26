@@ -28,6 +28,10 @@ This is a general-purpose GitHub repository template. It contains community heal
 - Open PRs early and keep them small — a series of small, merged PRs is easier to review than one large one.
 - Report honestly: state what was tested, what failed, and what was skipped.
 
+## Tips
+
+- Don't change the core apps unless you find a real bug.
+
 ## Customization Checklist
 
 When using this template for a new project:
