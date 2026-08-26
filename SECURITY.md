@@ -1,18 +1,9 @@
 # Security Policy
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported |
-| --- | --- |
-| latest | :white_check_mark: |
-
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please report it responsibly by
-opening a [private issue](https://github.com/iap/.github/issues/new) or
-contacting the maintainer at <6572003+iap@users.noreply.github.com>. We will respond as soon as possible and work with you to address the issue.
+If you discover a security vulnerability, please report it responsibly using
+[GitHub's private vulnerability reporting](https://github.com/iap/.github/security/advisories/new)
+or by contacting the maintainer at <6572003+iap@users.noreply.github.com>. We will respond as soon as possible and work with you to address the issue.
 
 Please do not publicly disclose the vulnerability until it has been resolved.
