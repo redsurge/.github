@@ -4,13 +4,12 @@ Instructions for AI coding agents working in this repository.
 
 ## Project Overview
 
-This is a general-purpose GitHub repository template. It contains community health files, a baseline CI workflow, and a starter GitHub Pages page. New repositories created from this template should customize these files for their own stack.
+This is a general-purpose GitHub repository template. It contains community health files and a baseline CI workflow. New repositories created from this template should customize these files for their own stack.
 
 ## Repository Structure
 
 | Path | Purpose |
 |---|---|
-| `index.html` | GitHub Pages entry point |
 | `.github/workflows/ci.yml` | Generic CI workflow (Node steps skip when no `package.json` exists) |
 | `.gitignore` | General-purpose ignore rules (OS, editors, env files, common build artifacts) |
 | `CONTRIBUTING.md` | Contribution guidelines |
@@ -27,10 +26,6 @@ This is a general-purpose GitHub repository template. It contains community heal
 - Use branch naming prefixes: `feat/`, `fix/`, `docs/`, `chore/`, `refactor/`, `test/` (see `CONTRIBUTING.md`).
 - Open PRs early and keep them small — a series of small, merged PRs is easier to review than one large one.
 - Report honestly: state what was tested, what failed, and what was skipped.
-
-## Tips
-
-- Don't change the core apps unless you find a real bug.
 
 ## Customization Checklist
 
