@@ -21,11 +21,38 @@ Use lowercase prefixes with a short description separated by a slash:
 
 Example: `feat/user-auth`, `fix/login-crash`, `docs/api-endpoints`.
 
+Avoid parentheses and other shell metacharacters in branch names. Git accepts
+them, but `bash` and `zsh` treat `(` as syntax, so `git push origin fix(x)`
+fails with a syntax error unless quoted every time.
+
+## Commit Messages
+
+Write commit subjects as `type(scope): summary`, using the same types as the
+branch prefixes above. The scope is optional — omit it when a change is
+repo-wide.
+
+| Part | Rule |
+|---|---|
+| `type` | One of `feat`, `fix`, `docs`, `chore`, `refactor`, `test` |
+| `scope` | Optional area touched, lowercase (e.g. `security`, `ci`, `agents`) |
+| `summary` | Imperative mood, no trailing period, ideally under 72 characters |
+
+Examples:
+
+```
+fix(security): point disclosure at the advisory form
+docs(agents): drop the duplicated file inventory
+chore(ci): pin actions to commit SHAs
+```
+
+Use the body to explain why the change was made, not what the diff already
+shows. State only what you actually verified.
+
 ## Pull Requests
 
 1. Fork the repository.
 2. Create a branch using the naming convention above (`git checkout -b feat/my-feature`).
-3. Make your changes and commit with a descriptive message.
+3. Make your changes and commit using the message format above.
 4. Push to your branch (`git push origin feat/my-feature`).
 5. Open a pull request.
 
