@@ -10,8 +10,9 @@ A starter template for new GitHub repositories.
 | `.gitignore` | General-purpose gitignore (OS, editor, env, and common build artifacts) |
 | `CONTRIBUTING.md` | Guidelines for contributing |
 | `SECURITY.md` | Security policy |
-| `.github/workflows/ci.yml` | Generic GitHub Actions CI workflow |
-| `AGENTS.md` | Instructions for AI coding agents (`CLAUDE.md` imports it) |
+| `.github/workflows/ci.yml` | Generic GitHub Actions CI workflow (Node steps skip when no `package.json` exists) |
+| `AGENTS.md` | Instructions for AI coding agents |
+| `CLAUDE.md` | Imports `AGENTS.md` so Claude Code picks up the same instructions |
 
 ## How to use
 

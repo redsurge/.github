@@ -4,17 +4,7 @@ Instructions for AI coding agents working in this repository.
 
 ## Project Overview
 
-This is a general-purpose GitHub repository template. It contains community health files and a baseline CI workflow. New repositories created from this template should customize these files for their own stack.
-
-## Repository Structure
-
-| Path | Purpose |
-|---|---|
-| `.github/workflows/ci.yml` | Generic CI workflow (Node steps skip when no `package.json` exists) |
-| `.gitignore` | General-purpose ignore rules (OS, editors, env files, common build artifacts) |
-| `CONTRIBUTING.md` | Contribution guidelines |
-| `SECURITY.md` | Security policy |
-| `LICENSE` | MIT License |
+This is a general-purpose GitHub repository template. It contains community health files and a baseline CI workflow. New repositories created from this template should customize these files for their own stack. `README.md` carries the file inventory.
 
 ## Guidelines
 
