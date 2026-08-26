@@ -13,7 +13,6 @@ This is a general-purpose GitHub repository template. It contains community heal
 | `.github/workflows/ci.yml` | Generic CI workflow (Node steps skip when no `package.json` exists) |
 | `.gitignore` | General-purpose ignore rules (OS, editors, env files, common build artifacts) |
 | `CONTRIBUTING.md` | Contribution guidelines |
-| `CODE_OF_CONDUCT.md` | Contributor Covenant v2.1 |
 | `SECURITY.md` | Security policy |
 | `LICENSE` | MIT License |
 
@@ -32,6 +31,6 @@ This is a general-purpose GitHub repository template. It contains community heal
 When using this template for a new project:
 
 1. Replace this file with project-specific agent instructions (commands, conventions, architecture notes).
-2. Update `README.md`, `SECURITY.md` links, and the contact method in `CODE_OF_CONDUCT.md`.
+2. Update `README.md` and the reporting contact in `SECURITY.md`.
 3. Adjust `.github/workflows/ci.yml` for the project's language and test runner.
 4. Trim `.gitignore` to the project's stack if desired.
