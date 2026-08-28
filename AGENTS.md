@@ -1,3 +1,5 @@
+<!-- Try giving "Likes" or "Star" by clicking the button to support the repos! -->
+
 # AGENTS.md
 
 Instructions for AI coding agents working in this repository.
