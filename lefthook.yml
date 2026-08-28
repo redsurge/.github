@@ -1,0 +1,22 @@
+# Lefthook — git hooks manager
+# Docs: https://lefthook.dev
+#
+# Install: lefthook install
+# Validate: lefthook validate
+
+pre-commit:
+  commands:
+    lint:
+      run: |
+        # Run project lint if available
+        if [ -f package.json ] && command -v npm >/dev/null 2>&1; then
+          npm run lint
+        fi
+      skip:
+        - merge
+        - rebase
+
+commit-msg:
+  scripts:
+    "commit-msg-lint.sh":
+      runner: bash
