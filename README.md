@@ -26,8 +26,9 @@ A starter template for new GitHub repositories.
 This template includes `lefthook.yml` for git hook management.
 
 ```bash
-# Install lefthook (via mise or your package manager)
+# Install lefthook and gitleaks (via mise or your package manager)
 mise use lefthook
+mise use gitleaks
 
 # Install hooks into .git/hooks/
 lefthook install
