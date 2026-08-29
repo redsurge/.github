@@ -6,6 +6,11 @@
 
 pre-commit:
   commands:
+    secret-scan:
+      run: bash .lefthook/pre-commit/secret-scan.sh
+      skip:
+        - merge
+        - rebase
     lint:
       run: |
         # Run project lint if available

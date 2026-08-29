@@ -35,6 +35,7 @@ lefthook install
 
 Hooks configured:
 - **pre-commit**: runs `npm run lint` if package.json exists (skips merge/rebase)
+- **pre-commit**: scans staged files with gitleaks to block secrets (skips merge/rebase)
 - **commit-msg**: enforces `type(scope): summary` commit message format via `.lefthook/commit-msg/commit-msg-lint.sh`
 
 Scripts live under `.lefthook/<hook-name>/`. Override with `git commit --no-verify` when needed.
