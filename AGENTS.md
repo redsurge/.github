@@ -11,6 +11,7 @@ This is a general-purpose GitHub repository template. It contains community heal
 - Keep changes minimal and aligned with the repo's existing style.
 - Do not commit secrets or environment files (`.env`); use `.env.example` instead.
 - Run available linters/formatters/tests before declaring work complete; if none exist, say so.
+- Avoid self-claiming and embedding unverified detail. Never claim you verified something you did not, and do not over-specify routine conventions in comments (e.g. tagging a commit as "GPG-signed" when the repo requires signing by default). State only what you did and observed.
 - Prefer small, focused commits; write subjects as `type(scope): summary` (see `CONTRIBUTING.md`).
 - Use branch naming prefixes: `feat/`, `fix/`, `docs/`, `chore/`, `refactor/`, `test/` (see `CONTRIBUTING.md`).
 - Open PRs early and keep them small — a series of small, merged PRs is easier to review than one large one.
